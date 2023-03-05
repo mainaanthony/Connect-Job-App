@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.articlesPage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/article_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/hind_siliguri"
+            android:textAllCaps="true"
+            android:layout_marginTop="40dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/Job_type"/>-->
+            <TextView
+                android:id="@+id/article_WriterName"
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                />
+                <TextView
+                    android:id="@+id/writerContact"
+                    android:layout_width="match_parent"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    />
+<!--                <TextView-->
+            <!--        android:id="@+id/company_name"-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/articleWriterEmail"
+                android:layout_width="match_parent"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="Brief Description of the article"
+                />
+            <TextView
+                android:id="@+id/articleDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="Read the post here..."
+                />
+            <TextView
+                android:id="@+id/articlePost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="Article Writer Information"
+                />
+            <TextView
+                android:id="@+id/articleWriterInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/Job_description_qualification"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/job_description_qualification"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                />-->
+<!--            -->
+<!--            -->
+<!--            -->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/Company_email"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/company_email"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/job_expires"/>-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/expiry"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="@string/job_expires"/>-->
+
+            <RelativeLayout
+                android:id="@+id/progressbarArticles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--      <CheckBox-->
+                <!--          android:layout_width="wrap_content"-->
+                <!--          android:layout_height="wrap_content"-->
+                <!--          style = "@style/Widget.AppCompat.CompoundButton.CheckBox"-->
+                <!--          android:text = "@string/remember_me"-->
+                <!--          android:buttonTint="@color/black"-->
+                <!--          android:layout_centerVertical="true"-->
+                <!--          android:textColor="@color/black"/>-->
+                <!--      <Button-->
+
+                <!--          android:layout_width="wrap_content"-->
+                <!--          android:layout_height="wrap_content"-->
+                <!--          android:text="@string/forget_password"-->
+                <!--          android:layout_alignParentEnd="true"-->
+                <!--          android:layout_alignParentRight="true"/>-->
+
+            </RelativeLayout>
+
+
+<!--            <Button-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/Apply_Button"-->
+<!--                android:onClick="goTo"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"/>-->
+
+
+            <!--    <TextView-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="@string/comments_Title"-->
+            <!--        />-->
+
+            <!--    <TextView-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="@string/comments_Title"-->
+            <!--        />-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/article_confirm_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "@string/comments_contact"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/article_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "@string/comments_hint"
+                style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/comment_post"
+                style="@style/Widget.AppCompat.RatingBar"
+                android:id="@+id/ratingBarArticles"/>
+
+
+            <Button
+                android:id="@+id/article_comment_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comment_post"
+                android:onClick="comment"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+
+            <Button
+                android:id="@+id/article_reviewsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See comments Reviews and ratings"
+                android:onClick="seeReviews"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+
+<!--            <Button-->
+<!--                android:id="@+id/AddRemoveButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Save"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"/>-->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/comment_post"
+                app:layout_constraintVertical_bias="0.09"
+                tools:layout_editor_absoluteX="-16dp"
+                android:orientation="vertical"
+                tools:listitem="@layout/comments"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyOtp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/search"-->
+<!--            android:tint="@color/black"-->
+<!--            android:padding="5dp"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code_otp"
+            android:textColor="@color/black"
+            android:textSize="100sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verification_otp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_otp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:layout_marginTop="50dp"/>
+
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:background="@color/black"-->
+<!--            android:contentDescription="@string/gen_otp"-->
+<!--            android:text="@string/button_otp"-->
+<!--            android:onClick="genOtp"-->
+<!--            android:textColor="@color/white" />-->
+
+
+  <com.chaos.view.PinView
+      android:id="@+id/pin_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:itemCount="6"
+      app:itemWidth="50dp"
+      app:itemHeight="50dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="30dp"
+      app:lineColor="@color/black"
+      android:itemBackground="@color/white"
+      style = "@style/PinWidget.PinView"
+      android:inputType="number"
+      android:cursorVisible="true"
+      app:cursorColor="@color/black"
+      app:hideLineWhenFilled="true"
+      app:itemRadius="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/black"
+            android:contentDescription="@string/button_otp"
+            android:text="@string/button_otp"
+            android:onClick="callNextScreenFromOtp"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

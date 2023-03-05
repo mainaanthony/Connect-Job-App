@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable-v24/my_msg_back.xml" value="0.116" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/back_button.xml" value="0.116" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/opo_msg_back.xml" value="0.116" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/rounded.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/rounded_back_light_10.xml" value="0.1375" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/drawable/search_icon.xml" value="0.1375" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/font/font.xml" value="0.1734375" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_article_per_job_seeker.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_articles.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_articles_page.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_chat_main.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_chat_message.xml" value="0.1109375" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_employer.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_employer1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_employer2.xml" value="0.33" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_employer3.xml" value="0.1015625" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_job_seeker.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_job_seeker2.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_account_job_seeker3.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_employer_account2.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_create_employer_account3.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_dashboard.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_dashboard2.xml" value="0.25" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_forget_password_employer.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_forget_success_message.xml" value="0.22" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_forget_success_message_employer.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_job_per_employer_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_jobs_page.xml" value="0.18" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_jobs_per_employer.xml" value="0.19586374695863748" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_jobs_reviews.xml" value="0.33" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_local_news_main.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_login_employer.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_login_employer2.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_login_job_seeker.xml" value="0.21" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_news.xml" value="0.18" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_news_estate_details.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_news_stock_details.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_post_article.xml" value="0.25" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_post_job.xml" value="0.25" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_reports.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_reviews_mainactivity.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_set_new_password.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_user_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_user_profile_job_seeker.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_verify_otp.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_verify_otp_employer.xml" value="0.115625" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_verify_otp_new_credentials.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_verify_otp_new_credentials_employer.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/activity_web_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/articles.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/articlesfragment.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/chat_adapter_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/comments.xml" value="0.2" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/entertainmentfragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/fragment_bonds.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/fragment_estate.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/fragment_news.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/fragment_stock.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/healthfragment.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/homefragment.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/homenewsfragment.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/jobs.xml" value="0.22" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/jobs_per_employer.xml" value="0.13612565445026178" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/lyout_item.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/menu_header.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/message_adapter_layout.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/profilesfragment.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/sciencefragment.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/sportsfragment.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/stock_item.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/stock_news.xml" value="0.1078125" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/technologyfragment.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/update_popup.xml" value="0.1" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/layout/update_popup_articles.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/menu/main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Tony/AndroidStudioProjects/ConnecticutApp/app/src/main/res/menu/menu.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

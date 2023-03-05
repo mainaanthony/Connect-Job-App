@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Connecticut</string>
+
+    c
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="forgot_Password">FORGOT PASSWORD</string>
+    <string name="forgot_Password_detail">Provide the phone number details of the account you have registered with</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="set_password_credentials">New Credentials</string>
+    <string name="set_password_credentials_details"> Your identity has been verified set New Details</string>
+    <string name="set_new_password_credentials">New Password</string>
+    <string name="set_new_password_button"> UPDATE</string>
+    <string name="set_confirm_password_credentials">Confirm Password</string>
+    <string name="success_message"><b> PASSWORD UPDATED</b></string>
+    <string name="success_message_details"> Your Password credentials have been updated</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_account_page">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="Username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">password</string>
+    <string name="nxt_button">NEXT</string>
+    <string name="login">LOGIN</string>
+    <string name="login_job_seeker">LOGIN</string>
+    <string name="home"> HOME</string>
+    <string name="profile"> PROFILE</string>
+    <string name="search"> SEARCH</string>
+    <string name="articles"> ARTICLES</string>
+    <string name="settings"> SETTINGS</string>
+    <string name="logout"> LOGOUT</string>
+    <string name="slogan_name"> CONNECT</string>
+    <string name="logo_name"> Get a lot of opportunities brought closer to you</string>
+    <string name="image_5"> desc_5</string>
+    <string name="scroll_view"> desc_5</string>
+    <string name="tyut_try"><b> CONNECT</b></string>
+    <string name="Job_welcome_inspo"> Get connected to opportunities that may just change your career</string>
+    <string name="verification_otp"> VERIFICATION</string>
+    <string name="code_otp"> CO\nDE</string>
+    <string name="phone_otp">  Enter one time password sent on +254792552713</string>
+    <string name="button_otp"> VERIFY CODE</string>
+    <string name="input_otp">876876 </string>
+    <string name="join_job_seeker">Job Seeker </string>
+    <string name="join_employer"><b>Employer</b> </string>
+    <string name="gen_otp"><b> Generate OTP</b> </string>
+    <string name="Job_Title">Job Title </string>
+    <string name="Job_desc">Job Description </string>
+    <string name="skill">Skills Required </string>
+    <string name="salary">Salary </string>
+    <string name="Location">Business Premises Location </string>
+    <string name="post_a_job"><b>Post Jobs Page</b> </string>
+    <string name="Job_reach_out_contact">how to contact us</string>
+    <string name="post_job">Post </string>
+    <string name="post_date"> 19 <sup><small> th </small></sup> september 2022 </string>
+    <string name="view_update_job"> View and Update Job </string>
+
+
+    <!--Jobs Page -->
+    <string name="Job_name"> Job Name </string>
+    <string name="Job_type"> Job Type(fulltime/partime/remote) </string>
+    <string name="Company_name">Company Name </string>
+    <string name="Company_Location">Location(share location Link) </string>
+    <string name="Experiences_required">Experiences Required </string>
+    <string name="Education_Certificates"> Certificates Required </string>
+    <string name="Job_description_qualification">Job Description and Qualification </string>
+    <string name="Company_email">How to contact us </string>
+    <string name="Apply"> Company Job Application Website </string>
+    <string name="job_contact">Company Contact </string>
+    <string name="job_expires"><b>Job Application deadline is in:</b> </string>
+    <string name="Apply_Button"> Apply  </string>
+
+
+    <!--Employers page -->
+    <string name="employer_full_name">Employer FullName </string>
+    <string name="Organization_name">Org/Business name </string>
+
+
+    <!--Employers page -->
+    <string name="Article_Title"> Article  Title </string>
+    <string name="Article_small_desc">Introduction(A brief description intro of project) </string>
+    <string name="Blog"> Content </string>
+
+    <!--Comments Section -->
+    <string name="comments_Title">Comments </string>
+    <string name="comments_contact">Write the Company contact(It should match the company contact in the job post) </string>
+    <string name="comments_hint">Write your review here </string>
+    <string name="comments_desc">Write a review on this company and job position offer based on your previous experience working with the company </string>
+    <string name="comment_post">Post Comment </string>
+
+
+</resources>

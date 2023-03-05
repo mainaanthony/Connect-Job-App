@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.JobsPage">
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="#F6F5F8">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/menu_icon_ghdh"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:contentDescription="@string/image_5"-->
+<!--        android:src="@drawable/menu"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.043"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+  <TextView
+      android:id="@+id/job_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+      android:fontFamily="@font/hind_siliguri"
+      android:textAllCaps="true"
+      android:layout_marginTop="40dp"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="40dp">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/Job_type"
+      android:textSize="25sp"
+      android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/job_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Company_name"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/company_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/job_contact"
+        />
+    <TextView
+        android:id="@+id/job_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Company_Location"
+        android:textSize="25sp"
+        android:textStyle="bold"
+       />
+    <TextView
+        android:id="@+id/company_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Experiences_required"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Experiences_required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Education_Certificates"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Education_certificates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Job_description_qualification"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/job_description_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Company_email"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/company_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:text="@string/job_expires"/>
+
+
+      <TextView
+          android:id="@+id/expiry"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+
+          android:text="@string/job_expires"/>
+
+    <RelativeLayout
+        android:id="@+id/progressbarJobPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--      <CheckBox-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          style = "@style/Widget.AppCompat.CompoundButton.CheckBox"-->
+<!--          android:text = "@string/remember_me"-->
+<!--          android:buttonTint="@color/black"-->
+<!--          android:layout_centerVertical="true"-->
+<!--          android:textColor="@color/black"/>-->
+<!--      <Button-->
+
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:text="@string/forget_password"-->
+<!--          android:layout_alignParentEnd="true"-->
+<!--          android:layout_alignParentRight="true"/>-->
+
+    </RelativeLayout>
+
+
+    <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Apply_Button"
+              android:onClick="goTo"
+              android:layout_alignParentEnd="true"
+              android:layout_alignParentRight="true"/>
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/comments_Title"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/comments_Title"-->
+<!--        />-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/job_confirm_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/comments_contact"
+        style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:boxStrokeWidthFocused="2dp"
+        app:boxStrokeColor="@color/black">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:inputType="text"
+          />
+    </com.google.android.material.textfield.TextInputLayout>
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/comment_edit"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint = "@string/comments_hint"
+          style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          app:hintTextColor="@color/black"
+          android:textColorHint="@color/black"
+          app:endIconMode="clear_text"
+          app:endIconTint="@color/black"
+          app:boxStrokeWidthFocused="2dp"
+          app:boxStrokeColor="@color/black">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="text"
+              />
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/comment_post"
+      style="@style/Widget.AppCompat.RatingBar"
+      android:id="@+id/ratingBarJobPage"/>
+
+
+      <Button
+        android:id="@+id/comment_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comment_post"
+        android:onClick="comment"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/reviewsButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/reviews_icon"-->
+<!--        android:text="See Reviews and ratings"-->
+<!--        android:textSize="10sp"-->
+<!--        android:onClick="comment"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"/>-->
+
+
+      <Button
+          android:id="@+id/reviewsButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:background="@null"
+          android:drawableLeft="@drawable/reviews_icon"
+          android:gravity="center"
+          android:minHeight="0dp"
+          android:minWidth="0dp"
+          android:text="See reviews and ratings"
+          android:textColor="@android:color/white" />
+
+      <Button
+          android:id="@+id/AddRemoveButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Save"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"/>
+
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rv_jobsPage"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="10dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/comment_post"
+          app:layout_constraintVertical_bias="0.09"
+          tools:layout_editor_absoluteX="-16dp"
+          android:orientation="vertical"
+          tools:listitem="@layout/comments"/>
+
+
+
+  </LinearLayout>
+  </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "867207325468",
+    "project_id": "connecticutapp",
+    "storage_bucket": "connecticutapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867207325468:android:447b05461fd13934ff3cd9",
+        "android_client_info": {
+          "package_name": "com.connect.connecticutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867207325468-dehg0bi4psnvsuj5cqcdrf29nv803djl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk29yJ8k2gb8si3J4JDfIzki7V-Bc4X5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867207325468-dehg0bi4psnvsuj5cqcdrf29nv803djl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
